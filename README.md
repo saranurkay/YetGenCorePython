@@ -8,7 +8,7 @@ Bu repo Jump Python için oluşturulmuştur.
 - Github Öğreni
 - Python Visual Studio Code Kurulumu
 - Python Nedir ve Tarihçesi
-## 2. Hafta
+## 2.HAFTA
 - Print fonksiyonu nedir ne işe yarar ve parametreleri nelerdir?
 - Yorum satırları
 - Değişkenler ve tanımlama kuralları
