@@ -20,6 +20,11 @@ print("Hello World")
 logo = "Mor"
 print(logo)
 
+
+
+
+
+
 # ### Soru 3
 # Dairenin alanını hesaplayan bir Python kodu yazınız. pi sayısını 3.14 olarak alınız ve yarıçapını kullanıcıdan alınız. Sonucu ekrana bastırınız.
 
@@ -29,6 +34,12 @@ print(logo)
 r=int(input("Yarı Çapı Gir: "))
 alan=3.14*r*r
 print("Alan: ",alan)
+
+
+
+
+
+
 
 
 
@@ -46,11 +57,11 @@ print("Alan: ",alan)
 # y = [1, 2, 3, 4, 5]
 # ```
 
-
-
-
-
-
+x = [1,2,3,4,5]
+y = [5,4,3,2,1]
+x,y=y,x
+print(x)
+print(y)
 
 
 # ### Soru 5
@@ -61,6 +72,11 @@ print("Alan: ",alan)
 
 5 - 3 // 2
 
+a=5
+b=3
+c=2
+(a-b)//c
+
 
 # ### Soru 6
 # Aşağıdaki kod satırının sonuncusunu 0 olacak şekilde düzenleyiniz.
@@ -70,6 +86,9 @@ print("Alan: ",alan)
 
 8 - 3 * 2 - 1 + 1
 
+8 - 3 * 2 - 1 + 1 - 2
+
+
 
 # ### Soru 7
 # YetGen liderlerinden Berkcan, Emirhan ve Eslem, Ramazan Bayramı'nda topladıkları şekerlerini bir araya getirmeyi ve kendi aralarında eşit olarak paylaşmayı kabul ettiler.
@@ -77,7 +96,4 @@ print("Alan: ",alan)
 # Kaç tane şekeri parçalayacaklarını hesaplayan bir Python kodu yazınız.
 
 # In[ ]:
-
-
-# 7.Sorunun çözümünü buraya yazabilirsin.
 
