@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar  6 18:09:02 2023
-
 @author: sara
 """
 
@@ -68,7 +66,8 @@ else:
 
 
 #5.soru
-
+print("yapamadım")
 #6.soru
-
+print("yapamadım")
 #7.soru
+print("eğitimden sonra bak sara")
