@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-@author: sara
-"""
+
 #1.soru
 
 sayi = int(input("Bir sayı giriniz : "))

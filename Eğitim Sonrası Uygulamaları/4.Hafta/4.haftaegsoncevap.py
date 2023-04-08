@@ -1,7 +1,4 @@
 
-"""
-@author: sara
-"""
 #1.soru
 
 ogrenciler= {}
