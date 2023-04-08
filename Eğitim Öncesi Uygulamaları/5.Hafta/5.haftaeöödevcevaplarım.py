@@ -1,11 +1,8 @@
 
-"""
-
-@author: sara
-"""
-
 #1.soru
-
+def dikUcgenAlaniHesapla(a,b):
+    return(a*b)/2
+print(dikUcgenAlaniHesapla(120,40))
 
 #2.soru
 
@@ -24,8 +21,24 @@ for sayi in range(sayi1,sayi2 + 1):
 
 #3.soru
 
-#4.soru
+a=int(input("Kaç Saat Çalıştınız:"))
 
+def computerPay(b=10, c=15):
+    if a<40:
+        print(a*b)
+    else:
+        print(a*c)
+
+computerPay()
+
+#4.soru
+def servis_hesapla(arkadas_sayisi):
+    servis_sayisi = arkadas_sayisi // 4  # bölümün tam kısmı servis sayısını verir
+    kalan = arkadas_sayisi % 4  # kalan arkadaş sayısı
+    if kalan > 0:
+        servis_sayisi += 1  # kalan arkadaşlar için ek bir servis kiralanması gerekir
+    return servis_sayisi
+servis_hesapla(15)
 
 #5.soru
 
