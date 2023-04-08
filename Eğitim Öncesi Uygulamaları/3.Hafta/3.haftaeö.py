@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-@author: sara
-"""
 
 #1.soru
 
@@ -66,8 +62,43 @@ else:
 
 
 #5.soru
-print("yapamadım")
+
+boy = float(input("Boyunuzu Giriniz:"))
+kilo = float(input("Kilonuzu Giriniz:"))
+bki = kilo/(boy**2)
+
+if bki< 18.5:
+    print("Zayıfsınız")
+elif bki < 25:
+    print("Normal Kilo")
+elif bki < 30:
+    print("Fazla Kilolusunuz")
+else:
+    print("Obezsiniz")
+    
 #6.soru
-print("yapamadım")
+
+isim = input("İsminizi Giriniz:")
+yas = int(input("Yaşınızı Giriniz:"))
+egitim = input("Eğitim Durumunuzu Giriniz:")
+ 
+if yas >=18:
+    if (egitim == 'Lise' or egitim =='Üniversite' or egitim == 'üniversite' or egitim == "lise"):
+        print(f"{isim} ehliyet alabilirsiniz.")
+    else:
+        print(f"{isim} ehliyet alma şartını yaşınız karşılasa da eğitim durumunuz karşılamıyor.")
+
+else:
+    print("Her iki koşulu da sağlamadığınız için ehliyet alamazsınız.")
+    
+
 #7.soru
-print("eğitimden sonra bak sara")
+
+yil=int(input("Yıl giriniz:"))
+
+if yil%4==0 and yil % 100 !=0:
+    print(f"{yil} artık yıldır.")
+elif yil%400==0:
+    print(f"{yil} artık yıldır.")
+else:
+    print(f"{yil} artık yıl değildir.")
