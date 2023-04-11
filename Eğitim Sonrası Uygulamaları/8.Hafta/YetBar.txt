@@ -1,0 +1,2 @@
+12/04/2023 02:16:59 - ['Muz', 'Ekstrasut', 'Elma'] - 11 TL
+12/04/2023 02:19:38 - ['Muz', 'Avokado', 'Elma', 'Çilek', 'Ekstrasut'] - 25 TL

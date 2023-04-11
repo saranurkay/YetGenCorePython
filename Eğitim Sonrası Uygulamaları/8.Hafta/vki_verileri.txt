@@ -1,0 +1,9 @@
+sara kay, 22 yasida, 165 cm boyunda, 45 kg agirliginda.
+ VKI: 16.53
+ Sinif: Zayif
+nur kay, 22 yasida, 165 cm boyunda, 300 kg agirliginda.
+ VKI: 110.19
+ Sinif: Morbid Obez
+sara kay, 22 yasida, 165 cm boyunda, 45 kg agirliginda.
+ VKI: 16.53
+ Sinif: Zayif
