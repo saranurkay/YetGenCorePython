@@ -84,7 +84,8 @@ while True:
         menu_goruntule()
     elif secim == "2":
         malzemeler_str = input("Lütfen smoothienizin içine eklemek istediğiniz malzemeleri boşluk bırakarak yazın: ")
-        malzeme_listesi = [malzeme.strip() for malzeme in malzemeler_str.split(" ")]
-        satin_al(malzeme_listesi)
+        if(malzemeler_str != "iptal"):
+            malzeme_listesi = [malzeme.strip() for malzeme in malzemeler_str.split(" ")]
+            satin_al(malzeme_listesi)
     else:
         print("Lütfen tekrar deneyin.\n")
