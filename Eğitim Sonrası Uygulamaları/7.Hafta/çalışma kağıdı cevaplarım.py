@@ -289,8 +289,8 @@ print("Tek sayılar: ", odd_numbers)
 # In[ ]:
 
 
-n = int(input("Altıgenin kaç satırdan oluşacağını girin: "))
-m = int(input("Altıgenin orta satırındaki karakter sayısını girin: "))
+n = int(input("Altıgenin kaç satırdan oluşacağını giriniz: "))
+m = int(input("Altıgenin orta satırındaki karakter sayısını giriniz: "))
 
 for i in range(n):
     if i < n // 2:
