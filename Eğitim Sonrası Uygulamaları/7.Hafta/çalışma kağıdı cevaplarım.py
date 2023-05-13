@@ -234,7 +234,23 @@ print(f"{tahmin_sayisi} tahminde doğru sayıyı buldum.")
 # In[ ]:
 
 
-# 8.Problemin Çözümünü Buraya Yazınız
+from datetime import date
+def yas_hesapla(dogum_tarihi):
+    bugun = date.today()
+    yas = bugun.year - dogum_tarihi.year - ((bugun.month, bugun.day) < (dogum_tarihi.month, dogum_tarihi.day))
+    ay = bugun.month - dogum_tarihi.month
+    gun = bugun.day - dogum_tarihi.day
+    if gun < 0:
+        ay -= 1
+        gun += 30
+    if ay < 0:
+        yas -= 1
+        ay += 12
+    return f"{yas} yıl, {ay} ay, {gun} gün"
+
+dogum_tarihi = input("Doğum tarihinizi (GG/AA/YYYY) formatında girin: ")
+dogum_tarihi = date.fromisoformat(dogum_tarihi.replace('/', '-'))
+print("Bugüne kadar yaşadığınız süre: " + yas_hesapla(dogum_tarihi))
 
 
 # # Problem 9 Tek-Çift
@@ -244,7 +260,26 @@ print(f"{tahmin_sayisi} tahminde doğru sayıyı buldum.")
 # In[ ]:
 
 
-# 9.Problemin Çözümünü Buraya Yazınız
+import random
+
+odd_numbers = []
+even_numbers = []
+
+while True:
+    num = input("Bir sayı girin ya da 'q' tuşuna basarak çıkış yapın: ")
+    if num == 'q':
+        break
+    num = int(num)
+    if num % 2 == 0:
+        even_numbers.append(num)
+    else:
+        odd_numbers.append(num)
+
+even_numbers.sort(reverse=True)
+odd_numbers.sort(reverse=True)
+
+print("Çift sayılar: ", even_numbers)
+print("Tek sayılar: ", odd_numbers)
 
 
 #  # Problem 10 Altıgen Çizimi
@@ -254,5 +289,14 @@ print(f"{tahmin_sayisi} tahminde doğru sayıyı buldum.")
 # In[ ]:
 
 
-# 10.Problemin Çözümünü Buraya Yazınız
+n = int(input("Altıgenin kaç satırdan oluşacağını girin: "))
+m = int(input("Altıgenin orta satırındaki karakter sayısını girin: "))
+
+for i in range(n):
+    if i < n // 2:
+        print(" " * (n // 2 - i) + "*" * (2 * i + 1))
+    elif i == n // 2:
+        print("*" * m)
+    else:
+        print(" " * (i - n // 2) + "*" * (2 * (n - i) - 1))
 
